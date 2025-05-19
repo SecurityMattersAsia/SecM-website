@@ -1,0 +1,3 @@
+baseURL: "https://securitymattersasia.github.io/SecM-website/"
+relativeURLs: true
+canonifyURLs: true 
