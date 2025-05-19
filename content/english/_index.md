@@ -7,7 +7,7 @@ banner:
   button:
     enable: true
     label: "Contact Helpline"
-    link: "/pages/helpline"
+    link: "/helpline"
 
 # Features
 features:
