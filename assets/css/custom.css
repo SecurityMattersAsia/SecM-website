@@ -1,52 +1,27 @@
-/* Add your own custom styles here */
-.dark {
-  background-color: #000000 !important;
-}
+/* DO NOT WRITE ANY STYLE IN THIS FILE */
+/* If you want to add your own styles, please write it in the `./assets/css/custom.css` file. */
 
-.dark * {
-  background-color: #000000 !important;
-}
-
-.dark .bg-darkmode-body,
-.dark .bg-darkmode-light,
+/* Override dark mode background for all sections, including header, footer, and section-sm bg-gradient */
+.dark body,
+.dark section,
+.dark div,
+.dark .menu,
 .dark .bg-gradient,
-.dark .bg-gradient-to-b {
-  background-color: #000000 !important;
-  background-image: none !important;
+.dark header,
+.dark footer,
+.dark .section-sm.bg-gradient {
+  background-color: #000 !important;
 }
 
-.dark section.section.pt-14,
-.dark section.section.pt-14 *,
-.dark .row.justify-center,
-.dark .row.justify-center * {
-  background-color: #000000 !important;
+/* Override dark mode gradient to use black */
+.dark {
+  --tw-gradient-to: #000 !important;
 }
 
-.dark section.section.pt-14 {
-  padding-top: 3.5rem !important;
-}
-
-.dark .btn-primary {
-  color: #ffffff !important;
-}
-
-.dark .theme-switcher label {
-  background-color: #333333 !important;
-  border: 1px solid #ffffff !important;
-}
-
-.dark .theme-switcher span {
-  background-color: #ffffff !important;
-  border: 1px solid #333333 !important;
-}
-
-/* Make banner image full width */
-.section.pt-14 .col-12 img {
-  width: 100vw !important;
-  max-width: 100vw !important;
-  margin-left: calc(-50vw + 50%) !important;
-  margin-right: calc(-50vw + 50%) !important;
-  position: relative !important;
-  left: 50% !important;
-  right: 50% !important;
+@layer utilities {
+  .bg-gradient {
+    &:where(.dark, .dark *) {
+      --tw-gradient-to: #000 !important;
+    }
+  }
 }
