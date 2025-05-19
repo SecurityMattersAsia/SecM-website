@@ -1,0 +1,52 @@
+/* Add your own custom styles here */
+.dark {
+  background-color: #000000 !important;
+}
+
+.dark * {
+  background-color: #000000 !important;
+}
+
+.dark .bg-darkmode-body,
+.dark .bg-darkmode-light,
+.dark .bg-gradient,
+.dark .bg-gradient-to-b {
+  background-color: #000000 !important;
+  background-image: none !important;
+}
+
+.dark section.section.pt-14,
+.dark section.section.pt-14 *,
+.dark .row.justify-center,
+.dark .row.justify-center * {
+  background-color: #000000 !important;
+}
+
+.dark section.section.pt-14 {
+  padding-top: 3.5rem !important;
+}
+
+.dark .btn-primary {
+  color: #ffffff !important;
+}
+
+.dark .theme-switcher label {
+  background-color: #333333 !important;
+  border: 1px solid #ffffff !important;
+}
+
+.dark .theme-switcher span {
+  background-color: #ffffff !important;
+  border: 1px solid #333333 !important;
+}
+
+/* Make banner image full width */
+.section.pt-14 .col-12 img {
+  width: 100vw !important;
+  max-width: 100vw !important;
+  margin-left: calc(-50vw + 50%) !important;
+  margin-right: calc(-50vw + 50%) !important;
+  position: relative !important;
+  left: 50% !important;
+  right: 50% !important;
+}
