@@ -16,6 +16,7 @@
 /* Override dark mode gradient to use black */
 .dark {
   --tw-gradient-to: #000 !important;
+  --color-darkmode-light: #000 !important;
 }
 
 @layer utilities {
