@@ -1,12 +1,12 @@
 ---
-enable: true
+enable: false
 title: "What our partners say"
 description: "We've been instrumental in the defence of many civil society groups in the East Asian region. Here's some testimonials from our partners"
 
 # Testimonials
 testimonials:
-  - name: "Marvin McKinney"
-    designation: "Web Designer"
+  - name: "TBD"
+    designation: "BD"
     avatar: "/images/avatar-sm.png"
     content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto illo molestias, assumenda expedita commodi inventore non itaque molestiae voluptatum dolore, facilis sapiente, repellat veniam."
 
