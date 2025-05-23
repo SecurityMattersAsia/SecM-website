@@ -3,6 +3,12 @@ enable: true
 title: "Our partners and projects"
 build:
   render: "never"
+description: "Experience the future of web development with Hugoplate and Hugo. Build lightning-fast static sites with ease and flexibility."
+button:
+  enable: true
+  label: "Get Started Now"
+  link: "https://github.com/zeon-studio/hugoplate"
+
 description: |
   Secure Storyteller Network (SSN) is a sub-project under Security Matters Asia, developed with the support of Berlinale Talents, the talent development programme of the Berlin International Film Festival. SSN shifts focus within the media production industry toward safeguarding at-risk crews and sensitive materials—often overlooked in traditional production planning—by embedding security-driven protocols directly into creative workflows.
 
@@ -21,3 +27,4 @@ description_zh: |
 
   我們誠意邀請對跨地域資訊影像安全感興趣的創作者、社群團體及機構合作與交流。如有意合作、初期參與或查詢詳情，請聯絡：info@a.domain.name
 ---
+
