@@ -12,4 +12,5 @@ description: |
 
   SSN 將於 2025 年底正式推出。
   我們誠意邀請對跨地域資訊影像安全感興趣的創作者、社群團體及機構合作與交流。如有意合作、初期參與或查詢詳情，請聯絡：info@a.domain.name
+image: "/images/avatar-sm.png" 
 ---
