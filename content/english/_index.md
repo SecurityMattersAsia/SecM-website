@@ -1,7 +1,7 @@
 ---
 # Banner
 banner:
-  title: "Digital Security for Human Rights Defendors"
+  title: "Digital Security for Human Rights Defenders"
   content: "We are a non-profit group empowering activists to stay safe and resilient while driving social change—because protecting rights starts with protecting those who defend them."
   image: "/images/banner.png"
   button:
